@@ -1,0 +1,30 @@
+{
+  "name": "md-blog",
+  "version": "1.0.0",
+  "description": "MD-Blog ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elgamine-dev/md-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elgamine-dev/md-blog/issues"
+  },
+  "homepage": "https://github.com/elgamine-dev/md-blog#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "jquery": "^3.1.1",
+    "jsesc": "^2.2.0",
+    "node-fs": "^0.1.7",
+    "semantic-ui-css": "^2.2.4",
+    "showdown": "^1.4.3",
+    "slug": "^0.9.1"
+  }
+}

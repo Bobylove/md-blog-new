@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Modify files</title>
+	<link rel="stylesheet" href="/css/semantic.css">
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+	<div>
+		<button><a href="http://localhost:7000">Acceuil</a></button>
+		<!-- créé une id="btn" pour navigué de page en page -->
+	</div>
+
+	<div class="ui container">
+		<h1 class="ui header">New post</h1>
+		<form action="/create" class="ui form" method="post">
+			<div class="field">
+				<label for="title">Titre</label>
+				<input type="text" id="title" name="title">
+			</div>
+			<div class="field">
+				<label for="content">Contenu</label>
+				<textarea name="content" id="content" cols="30" rows="10">
+				</textarea>
+			</div>
+			<button class="ui button green labeled icon">
+				<i class="icon save"></i> Save it !
+			</button>
+		</form>
+	</div>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/showdown.js"></script>
+	<script src="/js/app.js"></script>
+</body>
+</html>
