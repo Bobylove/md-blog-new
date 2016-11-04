@@ -66,15 +66,17 @@ $(document).ready(function(){
 				};
 			});
 		},
-		editArticle: function(event){
-			event.preventDefault();
-			// console.log(app.menu)
-			var create = $('select').val();
-			var title = app.menu[create].title;
-			var content = app.url4 + app.menu[create].path;
-			$('#title').val(title);
-			app.editContent(content);
-		},
+		// editArticle: function(event){
+		// 	event.preventDefault();
+		// 	app.editContent(content);
+		// 	console.log(app.menu)
+		// 	var create = $('select').val();
+		// 	console.log(create);
+		// 	var title = app.menu[create].title;
+		// 	console.log(title)
+		// 	var content = app.url4 + app.menu[create].path;
+		// 	$('#title').val(title);
+		// },
 		// editContent: function(content){
 		// 	$.ajax(content)
 		// 	.done(this.ajaxDoneEdit)
